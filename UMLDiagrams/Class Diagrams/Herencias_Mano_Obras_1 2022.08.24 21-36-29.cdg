@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Herencias_Mano_Obras_1">
+  <ClassDiagramComponents>
+    <Class name="Animal" package="EntidadAnimal" visibility="public" xPosition="37.0" yPosition="140.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="hacerRuido" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Gato" package="EntidadAnimal" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="hacerRuido" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Perro" package="EntidadAnimal" visibility="public" xPosition="507.0" yPosition="301.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="hacerRuido" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Herencias_Mano_Obras_1" package="herencias_mano_obras_1" visibility="public" xPosition="920.0" yPosition="20.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <IsRelation name="is" source="EntidadAnimal.Perro" target="EntidadAnimal.Animal"/>
+    <IsRelation name="is" source="EntidadAnimal.Gato" target="EntidadAnimal.Animal"/>
+  </ClassDiagramRelations>
+</ClassDiagram>

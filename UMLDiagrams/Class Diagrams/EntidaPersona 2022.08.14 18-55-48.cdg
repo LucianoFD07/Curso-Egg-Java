@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="EntidaPersona">
+  <ClassDiagramComponents>
+    <Class name="DNI" package="EntidaPersona" visibility="public" xPosition="91.0" yPosition="39.0">
+      <Fields/>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Persona" package="EntidaPersona" visibility="public" xPosition="321.0" yPosition="21.0">
+      <Fields>
+        <Field name="nombre" type="String" visibility="package"/>
+        <Field name="apellido" type="String" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public"/>
+      </Constructors>
+      <Methods>
+        <Method name="getNombre" returnType="String" visibility="public"/>
+        <Method name="getApellido" returnType="String" visibility="public"/>
+        <Method name="setNombre" returnType="void" visibility="public">
+          <Argument type="String" name="nombre"/>
+        </Method>
+        <Method name="setApellido" returnType="void" visibility="public">
+          <Argument type="String" name="apellido"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations/>
+</ClassDiagram>
